@@ -24,7 +24,7 @@ export const router = new VueRouter({
             component: AuthHandler
         }
     ],
-    base: '/Image-Storage-Website/',
+    // base: '/Image-Storage-Website/',
     linkExactActiveClass: "active" //--active tab highlight is not working otherwise
 })
 new Vue({
