@@ -14,11 +14,13 @@ app.use(history({
 app.use(staticFileMiddleware);
 
 app.get('/', function (req, res) {
+	console.log("Root handled:", path.join(__dirname + '/dist/index.html'))
 	res.render(path.join(__dirname + '/dist/index.html'));
 });
 
 app.get('*', function (req, res) {
-	res.render(path.join(__dirname + '/dist/index.html'));
+	console.log("Other routes path:", path.join(__dirname + '/dist/index.html'));
+	res.sendFile(path.join(__dirname + '/dist/index.html'));
 });
 
 var server = app.listen(process.env.PORT || 8080, function () {
