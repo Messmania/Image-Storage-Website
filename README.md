@@ -10,7 +10,7 @@ https://messmania.github.io/Image-Storage-Website/
 
 ## Local setup
 - Clone the repo onto your local machine.
-- Get inside the folder: `cd image-storage`
+- Get inside the folder: `cd Image-Storage-Website`
 - Install all the dependencies:
   ```
   npm install
