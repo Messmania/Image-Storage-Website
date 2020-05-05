@@ -1,11 +1,10 @@
 # Image-Storage
 
 ## Application Link
-https://messmania.github.io/Image-Storage-Website/
-- Routing is not wired on the deployed link as of now.
+- Routing is not wired on the deployed [link](https://messmania.github.io/Image-Storage-Website/) as of now.
 - Use the local setup to access the complete app functionality.
 
-## Prerequisites
+## Pre-requisites
 - This application needs an active imgur account.
 
 ## Local setup
